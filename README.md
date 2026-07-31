@@ -163,18 +163,6 @@ a specific, checkable reason.
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome. Feel free to open an issue or submit a pull
-request.
-
-1. Fork the repo
-2. Create a feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes
-4. Push and open a pull request
-
----
-
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
