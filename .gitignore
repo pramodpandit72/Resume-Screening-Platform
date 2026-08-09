@@ -1,0 +1,65 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+secrets.*
+credentials.*
+service-account*.json
+google-credentials*.json
+
+# Local virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.dist/
+*.egg-info/
+
+# Streamlit local config/secrets
+.streamlit/secrets.toml
+
+# Uploaded/private user data
+resumes/
+uploads/
+*.pdf
+*.doc
+*.docx
+
+# Local databases and generated data
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.xlsx
+*.xls
+
+# Logs and runtime files
+*.log
+logs/
+tmp/
+temp/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
